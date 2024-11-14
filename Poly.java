@@ -3,18 +3,18 @@ abstract class polym{
 }
 class Rectangle extends polym{
     void numberOfSides() {
-        System.out.println("Number of sides "+this.getClass()+" is 4");
+        System.out.println("Number of sides of Rectangle is 4");
     }
 }
 class Triangle extends polym{
     void numberOfSides() {
         //this.getClass
-        System.out.println("Number of sides "+this.getClass()+" is 3");
+        System.out.println("Number of sides of Triangle is 3");
     }
 }
 class Hexagon extends polym{
     void numberOfSides() {
-        System.out.println("Number of sides "+this.getClass()+" is 6");
+        System.out.println("Number of sides Hexagon is 6");
     }
 }
 public class Poly {
